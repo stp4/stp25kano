@@ -1,0 +1,25 @@
+Package: stp25kano
+Type: Package
+Title: Kano-Analyse
+Version: 0.1.0
+Author: Wolfgang peter
+Maintainer: The package maintainer <yourself@somewhere.net>
+Description: Collection of convenient functions for common statistical computations.
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+Date: 2022-01-22
+Suggests: 
+  stats,
+  lubridate, 
+  knitr, 
+  rmarkdown, 
+  testthat,
+  tidyr, 
+  dplyr,
+  stringr,
+  magrittr,
+  broom
+RoxygenNote: 7.2.0
+VignetteBuilder: knitr  
+Language: de_DE
