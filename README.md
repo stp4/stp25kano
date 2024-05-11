@@ -1,7 +1,7 @@
 Kano Analyse
 ================
 Wolfgang Peter
-2022-11-03
+2022-11-09
 
 Die Kano-Methode ist eine Mehr-Faktor-Analyse der Kundenzufriedenheit.
 Das Kano-Modell wurde von Noriaki Kano in den 70ern fuer die Firma
@@ -408,9 +408,9 @@ al. 1993\]. Der positive Index CS+ beschreibt Zufriedenheit stiftende
 Attribute, der negative Index CS- beschreibt Unzufriedenheit stiftende
 Attribute fuer den Kunden
 
-![Better = \\frac{O+A}{M+O+A+I}](https://latex.codecogs.com/png.image?%5Cdpi%7B110%7D&space;%5Cbg_white&space;Better%20%3D%20%5Cfrac%7BO%2BA%7D%7BM%2BO%2BA%2BI%7D "Better = \frac{O+A}{M+O+A+I}")
+$$Better = \frac{O+A}{M+O+A+I}$$
 
-![Worse = \\frac{M+O}{M+O+A+I}\* -1](https://latex.codecogs.com/png.image?%5Cdpi%7B110%7D&space;%5Cbg_white&space;Worse%20%3D%20%5Cfrac%7BM%2BO%7D%7BM%2BO%2BA%2BI%7D%2A%20-1 "Worse = \frac{M+O}{M+O+A+I}* -1")
+$$Worse = \frac{M+O}{M+O+A+I}* -1$$
 
 Der Wertebereich reicht von eins bis null bei CS+ und von null bis minus
 eins bei CS-. Werte ab 0.5 bzw.-0.5 werden koennen als bedeutsam
@@ -422,7 +422,7 @@ Fong-Test Vergleich der zwei Haeufigsten-Kategorien gegenueber der
 Gesamtzahl Ergebnis ist entweder ein signifikante oder ein nicht
 signifikante Verteilung.
 
-![ \|m1-m2\|  \< 1.65 \\cdot \\sqrt{ \\frac{(m1+m2)(2 \\cdot n-m1-m2)}{2 \\cdot n}}](https://latex.codecogs.com/png.image?%5Cdpi%7B110%7D&space;%5Cbg_white&space;%20%7Cm1-m2%7C%20%20%3C%201.65%20%5Ccdot%20%5Csqrt%7B%20%5Cfrac%7B%28m1%2Bm2%29%282%20%5Ccdot%20n-m1-m2%29%7D%7B2%20%5Ccdot%20n%7D%7D " |m1-m2|  < 1.65 \cdot \sqrt{ \frac{(m1+m2)(2 \cdot n-m1-m2)}{2 \cdot n}}")
+$$ |m1-m2|  < 1.65 \cdot \sqrt{ \frac{(m1+m2)(2 \cdot n-m1-m2)}{2 \cdot n}}$$
 
 m1 .. max Kategorie (Hauufigkeit der Antwortkategorie mit der groessten
 Anzahl exclusive Q) m2 .. zweit groessten Antwortkategorie n .. Summe
