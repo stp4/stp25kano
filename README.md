@@ -1,7 +1,7 @@
 Kano Analyse
 ================
 Wolfgang Peter
-2022-11-09
+2024-05-11
 
 Die Kano-Methode ist eine Mehr-Faktor-Analyse der Kundenzufriedenheit.
 Das Kano-Modell wurde von Noriaki Kano in den 70ern fuer die Firma
@@ -12,15 +12,23 @@ unausgesprochenen Beduerfnisse des Kunden konnte nicht abgeleitet
 werden. Kano entwickelte daraufhin eine Methode die Wuensche und
 Erwartungen von Kunden zu erfassen.
 
+<!-- badges: start -->
+
+[![Lifecycle:
+experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://www.tidyverse.org/lifecycle/#experimental)
+[![CRAN
+status](https://www.r-pkg.org/badges/version/stp25stat2)](https://CRAN.R-project.org/package=stp25stat2)
+<!-- badges: end -->
+
 ## Kano Fragebogen
 
 Das Kano-Modell unterscheidet vier Ebenen der Qualitaet der
 Kundenzufriedenheit:
 
--   **M** Basis-Merkmale, selbstverstaendlich Eigenschaft (Must-be)
--   **O** Leistungs-Merkmale, bewusste Eigenschaften (One-dimensional)
--   **A** Begeisterungs-Merkmale, nutzen stiftende Merkmale (Attractive)
--   **I** Unerhebliche Merkmale (Indifferent)
+- **M** Basis-Merkmale, selbstverstaendlich Eigenschaft (Must-be)
+- **O** Leistungs-Merkmale, bewusste Eigenschaften (One-dimensional)
+- **A** Begeisterungs-Merkmale, nutzen stiftende Merkmale (Attractive)
+- **I** Unerhebliche Merkmale (Indifferent)
 
 Der Kano-Fragebogen besteht aus zwei hypothetischen Fragen, die
 funktionale Frage und die dysfunktionale Frage. Fuer die Beantwortung
@@ -32,20 +40,20 @@ Nicht-Existenz des Attributs.
 Wenn Sie Ihren Schadensfall ueber eine Firma-X Service App im Smartphone
 melden koennten, wie denken Sie darueber?
 
--   Das wuerde mich sehr freuen.
--   Das setze ich voraus.
--   Das ist mir egal.
--   Das koennte ich eventuell in Kauf nehmen.
--   Das wuerde mich sehr stoeren.
+- Das wuerde mich sehr freuen.
+- Das setze ich voraus.
+- Das ist mir egal.
+- Das koennte ich eventuell in Kauf nehmen.
+- Das wuerde mich sehr stoeren.
 
 Wenn Sie Ihren Schadensfall **nicht** ueber eine Firma-X Service App im
 Smartphone melden koennten, wie denken Sie darueber?
 
--   Das wuerde mich sehr freuen.
--   Das setze ich voraus.
--   Das ist mir egal.
--   Das koennte ich eventuell in Kauf nehmen.
--   Das wuerde mich sehr stoeren.
+- Das wuerde mich sehr freuen.
+- Das setze ich voraus.
+- Das ist mir egal.
+- Das koennte ich eventuell in Kauf nehmen.
+- Das wuerde mich sehr stoeren.
 
 ## Evaluation
 
@@ -73,312 +81,13 @@ einen Kunden einen Mehwert darstellen. Das verwendete Messinstrument
 hatte einen Umfang von ueber 20 Attributen. Hier sind zufaellig fuenf
 Attribute ausgewaehlt und mit simmuliten Zufallszahlen dargestellet.
 
-<table>
-<thead>
-<tr>
-<th style="text-align:left;">
-variable
-</th>
-<th style="text-align:left;">
-Total
-</th>
-<th style="text-align:left;">
-M
-</th>
-<th style="text-align:left;">
-O
-</th>
-<th style="text-align:left;">
-A
-</th>
-<th style="text-align:left;">
-I
-</th>
-<th style="text-align:left;">
-R
-</th>
-<th style="text-align:left;">
-Q
-</th>
-<th style="text-align:left;">
-max Category
-</th>
-<th style="text-align:left;">
-M\>O\>A\>I
-</th>
-<th style="text-align:left;">
-Total Strength
-</th>
-<th style="text-align:left;">
-Category Strength
-</th>
-<th style="text-align:left;">
-CS plus
-</th>
-<th style="text-align:left;">
-CS minus
-</th>
-<th style="text-align:left;">
-Chi-squared Test
-</th>
-<th style="text-align:left;">
-Fong-Test
-</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:left;">
-Service app
-</td>
-<td style="text-align:left;">
-296
-</td>
-<td style="text-align:left;">
-32% (95)
-</td>
-<td style="text-align:left;">
-42% (123)
-</td>
-<td style="text-align:left;">
-15% (45)
-</td>
-<td style="text-align:left;">
-11% (33)
-</td>
-<td style="text-align:left;">
-.
-</td>
-<td style="text-align:left;">
-.
-</td>
-<td style="text-align:left;">
-O
-</td>
-<td style="text-align:left;">
-O
-</td>
-<td style="text-align:left;">
-89% ()
-</td>
-<td style="text-align:left;">
-9% ()
-</td>
-<td style="text-align:left;">
-0.568
-</td>
-<td style="text-align:left;">
--0.736
-</td>
-<td style="text-align:left;">
-72.49\*\*\*
-</td>
-<td style="text-align:left;">
-28 \< 19.4 sig.
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Excellent service
-</td>
-<td style="text-align:left;">
-296
-</td>
-<td style="text-align:left;">
-34% (101)
-</td>
-<td style="text-align:left;">
-18% (54)
-</td>
-<td style="text-align:left;">
-18% (54)
-</td>
-<td style="text-align:left;">
-27% (81)
-</td>
-<td style="text-align:left;">
-1% (3)
-</td>
-<td style="text-align:left;">
-1% (3)
-</td>
-<td style="text-align:left;">
-M
-</td>
-<td style="text-align:left;">
-M
-</td>
-<td style="text-align:left;">
-71% ()
-</td>
-<td style="text-align:left;">
-7% ()
-</td>
-<td style="text-align:left;">
-0.372
-</td>
-<td style="text-align:left;">
--0.534
-</td>
-<td style="text-align:left;">
-21.64\*\*\*
-</td>
-<td style="text-align:left;">
-20 \< 18.5 sig.
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Hotline
-</td>
-<td style="text-align:left;">
-296
-</td>
-<td style="text-align:left;">
-5% (15)
-</td>
-<td style="text-align:left;">
-8% (24)
-</td>
-<td style="text-align:left;">
-41% (121)
-</td>
-<td style="text-align:left;">
-42% (124)
-</td>
-<td style="text-align:left;">
-2% (6)
-</td>
-<td style="text-align:left;">
-2% (6)
-</td>
-<td style="text-align:left;">
-I
-</td>
-<td style="text-align:left;">
-A
-</td>
-<td style="text-align:left;">
-54% ()
-</td>
-<td style="text-align:left;">
-1% ()
-</td>
-<td style="text-align:left;">
-0.511
-</td>
-<td style="text-align:left;">
--0.137
-</td>
-<td style="text-align:left;">
-150.06\*\*\*
-</td>
-<td style="text-align:left;">
-3 \< 19.8 ns
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Loan machine
-</td>
-<td style="text-align:left;">
-296
-</td>
-<td style="text-align:left;">
-22% (65)
-</td>
-<td style="text-align:left;">
-29% (87)
-</td>
-<td style="text-align:left;">
-31% (93)
-</td>
-<td style="text-align:left;">
-17% (51)
-</td>
-<td style="text-align:left;">
-.
-</td>
-<td style="text-align:left;">
-.
-</td>
-<td style="text-align:left;">
-A
-</td>
-<td style="text-align:left;">
-O
-</td>
-<td style="text-align:left;">
-83% ()
-</td>
-<td style="text-align:left;">
-2% ()
-</td>
-<td style="text-align:left;">
-0.608
-</td>
-<td style="text-align:left;">
--0.514
-</td>
-<td style="text-align:left;">
-15.41\*\*
-</td>
-<td style="text-align:left;">
-6 \< 18.5 ns
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Ready-to-use return
-</td>
-<td style="text-align:left;">
-296
-</td>
-<td style="text-align:left;">
-3% (9)
-</td>
-<td style="text-align:left;">
-6% (18)
-</td>
-<td style="text-align:left;">
-28% (83)
-</td>
-<td style="text-align:left;">
-60% (177)
-</td>
-<td style="text-align:left;">
-2% (6)
-</td>
-<td style="text-align:left;">
-1% (3)
-</td>
-<td style="text-align:left;">
-I
-</td>
-<td style="text-align:left;">
-I
-</td>
-<td style="text-align:left;">
-37% ()
-</td>
-<td style="text-align:left;">
-32% ()
-</td>
-<td style="text-align:left;">
-0.352
-</td>
-<td style="text-align:left;">
--0.094
-</td>
-<td style="text-align:left;">
-251.30\*\*\*
-</td>
-<td style="text-align:left;">
-94 \< 19.9 sig.
-</td>
-</tr>
-</tbody>
-</table>
+| variable            | Total | M         | O         | A         | I         | R      | Q      | max Category | M\>O\>A\>I | Total Strength | Category Strength | CS plus | CS minus | Chi-squared Test | Fong-Test       |
+|:--------------------|:------|:----------|:----------|:----------|:----------|:-------|:-------|:-------------|:-----------|:---------------|:------------------|:--------|:---------|:-----------------|:----------------|
+| Service app         | 296   | 32% (95)  | 42% (123) | 15% (45)  | 11% (33)  | . (0)  | . (0)  | O            | O          | 89%            | 9%                | 0.568   | -0.736   | 72.49\*\*\*      | 28 \< 19.4 sig. |
+| Excellent service   | 296   | 34% (101) | 18% (54)  | 18% (54)  | 27% (81)  | 1% (3) | 1% (3) | M            | M          | 71%            | 7%                | 0.372   | -0.534   | 21.64\*\*\*      | 20 \< 18.5 sig. |
+| Hotline             | 296   | 5% (15)   | 8% (24)   | 41% (121) | 42% (124) | 2% (6) | 2% (6) | I            | A          | 54%            | 1%                | 0.511   | -0.137   | 150.06\*\*\*     | 3 \< 19.8 ns    |
+| Loan machine        | 296   | 22% (65)  | 29% (87)  | 31% (93)  | 17% (51)  | . (0)  | . (0)  | A            | O          | 83%            | 2%                | 0.608   | -0.514   | 15.41\*\*        | 6 \< 18.5 ns    |
+| Ready-to-use return | 296   | 3% (9)    | 6% (18)   | 28% (83)  | 60% (177) | 2% (6) | 1% (3) | I            | I          | 37%            | 32%               | 0.352   | -0.094   | 251.30\*\*\*     | 94 \< 19.9 sig. |
 
 Hier Schrittweise die Berechnung der einzelnen Masszahlen. Die
 Einfachste Betrachtung ist das Auszaehlen nach **relativen Haeufigkeit**
@@ -443,9 +152,10 @@ wichtiger ist das Attribut und als weitere Information sind die
 Bedeutendste Kategorie (ueber die M\>O\>I\>A Regel) bei jedem Attribut
 mit angefuehrt.
 
-    ## [1] "variable"
-
-![Importance-Grid](figure/Importance_Grid-1.png)
+<figure>
+<img src="figure/Importance_Grid-1.png" alt="Importance-Grid" />
+<figcaption aria-hidden="true">Importance-Grid</figcaption>
+</figure>
 
 ### Literatur
 
